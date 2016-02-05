@@ -4,9 +4,11 @@ var fbNumbers = [];
 var fizz = i%3;
 var buzz = i%5;
 
-for( s in fbNumbers) {
+for(var i=1; i !=101; ++i) fbNumbers.push(i);
+
+/*for( s in fbNumbers) {
   if (buzz=0) console.log;
-}
+}*/
 
 
 /*for(var i=1; fbNumbers[i]; ++i) {
