@@ -26,11 +26,10 @@ for(var i=0; i !=101; i++) {
 
 /* --Refactor Challenge-- */
 
+
 var newValue = parseInt(prompt("Please supply a whole number from 1 - 100."));
 
-if (newValue%1 != 0)
-  alert("Please refresh and try again!");
-else if (newValue != NaN) {
+function fbReply(newValue){
   if (newValue%3 == 0 && newValue%5 == 0)
     document.write("FizzBuzz");
   else if (newValue%3 == 0 && newValue%5 != 0)
@@ -39,6 +38,12 @@ else if (newValue != NaN) {
     document.write("Buzz");
   else if (newValue != undefined)
     document.write(newValue);
+};
+
+if (newValue%1 != 0)
+  alert("Please refresh and try again!");
+else if (newValue != NaN) {
+  return fbReply(newValue);
   };
 
 
