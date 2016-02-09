@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+/* --ORIGINAL FIZZBUZZ APP--
+
 var fbNumbers = [];
 
 
@@ -20,6 +22,12 @@ for(var i=0; i !=101; i++) {
   document.write("<br>");
   };
 
-prompt("Please supply a whole number from 1 - 100.");
+*/
+
+var stringValue = prompt("Please supply a whole number from 1 - 100.");
+var newValue = parseInt(stringValue);
+
+if (newValue != NaN)
+  document.write(newValue);
 
 });
