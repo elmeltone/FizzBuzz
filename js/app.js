@@ -20,4 +20,6 @@ for(var i=0; i !=101; i++) {
   document.write("<br>");
   };
 
+prompt("Please supply a whole number from 1 - 100.");
+
 });
